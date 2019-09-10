@@ -1,5 +1,5 @@
 import React from "react";
 
-const Result = () => <div className="result-screen">{props.children}</div>;
+const Result = props => <div className="result-screen">{props.children}</div>;
 
 export default Result;

@@ -1,7 +1,7 @@
 import React from "react";
 
-const Computation = () => (
-  <div className="computation-screen"> 3000 + 100 + 20 + 4</div>
+const Computation = props => (
+  <div className="computation-screen">{props.children}</div>
 );
 
 export default Computation;
