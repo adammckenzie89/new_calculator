@@ -4,7 +4,7 @@ import Result from "./Result/Result";
 
 const Screen = props => (
   <section className="screen">
-    <Result>{props.Result}</Result>
+    <Result>{props.result}</Result>
     <Computation>{props.equation}</Computation>
   </section>
 );
